@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -20,10 +20,5 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
     "hardhat": "^2.12.2"
-  },
-    "scripts": {
-    "build": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "node ./bin/www"
   }
 }

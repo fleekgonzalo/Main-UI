@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
-images.unoptimized = true
 module.exports = {
   trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
   exportPathMap: function() {
     return {
       '/': { page: '/' }

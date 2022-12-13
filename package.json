@@ -22,7 +22,7 @@
     "hardhat": "^2.12.2"
   },
     "scripts": {
-    "predeploy": "npm run build",
+    "build": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "node ./bin/www"
   }
